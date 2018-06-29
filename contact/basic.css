@@ -1,0 +1,25 @@
+/* making sure there is no extra spacess 
+ that add horizontal or vertical scroll bars */
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+
+/* styling for background image
+makes sure it covers the whole page 
+fits and
+it scales down on center */
+.contactBgImage{
+    width:100vw;
+    height:100vh;
+    background-image: url('../photos/IMG_1119.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
