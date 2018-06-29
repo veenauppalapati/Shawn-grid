@@ -10,18 +10,30 @@
 </head>
 <body>
     <div class="contactBgImage">
+
         <div class="container">
             <h3>Contact me</h3>
             <p>Please fill out the contact form and I will respond as soon as possible.  Thank you!</p>
         </div>
        <!-- End or container -->
+
         <section>
             <form action="/action_page.php">
                 <legend><b>Contact Us</b></legend>
-                <input type="text" name="fullname" placeholder="Full name"></input>
-                <input type="text" name="email" placeholder="Email"></input>
-                <textarea name="msg" placeholder="Write message here"></textarea>
-                <input type="submit" value="Submit">
+                <div class="labelInputWrapper">
+                    <label for="fullname">Your Name</label> 
+                    <input type="text" name="fullname" placeholder="Full name"></input>
+                </div>
+                <div class="labelInputWrapper">
+                    <label for="email">Your Email</label> 
+                    <input type="text" name="email" placeholder="Email"></input>
+                </div>
+                <div class="labelInputWrapper">
+                    <label for="msg">Your Message</label> 
+                    <textarea name="msg" rows="4" placeholder="Write message here"></textarea>
+                </div>
+
+                <input class="button" type="submit" value="SUBMIT">
             </form>   
         </section>
                   

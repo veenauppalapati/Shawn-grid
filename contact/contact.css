@@ -36,21 +36,35 @@ form{
     width: 25%;
     position: absolute;
     top:50%;
-   transform: translateY(-50%);
+    transform: translateY(-50%);
     color:white;
     margin-right:2em;
     right:0;
+  
 }
 
 input,
 textarea{
     display: block;
     width: 100%;
-    height:4vh; 
-   margin:2em 0;
-   opacity:0.5;
+    height:4vh;   
+    opacity:0.5;
+    border-radius: 15px;    /* Rounded corners   */
+    padding-left: 10px;  /* leaving some spaces for the sides inside for text */
+    background-color: rgba(171, 194, 112, 0.507);
 }
-
+.labelInputWrapper{
+    text-align: center;
+    margin:2em 0;
+}
 legend{
     font-size: 3vh;
+}
+.button{
+    background-color: rgb(67, 124, 231);
+   border-radius: 0;
+   color:white;
+   font-size: 2vh;
+   border:none;
+   opacity:1;
 }
