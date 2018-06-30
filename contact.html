@@ -6,38 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./contact/basic.css">
     <link rel="stylesheet" href="./contact/contact.css">
+    <link rel="stylesheet" href="./contact/form.css">
+    <link rel='stylesheet' type='text/css' href='./contact/media-600px.css' media='handheld' />
     <title>Contact Page</title>
 </head>
 <body>
     <div class="contactBgImage">
-
-        <div class="container">
-            <h3>Contact me</h3>
-            <p>Please fill out the contact form and I will respond as soon as possible.  Thank you!</p>
-        </div>
-       <!-- End or container -->
-
-        <section>
-            <form action="/action_page.php">
-                <legend><b>Contact Us</b></legend>
-                <div class="labelInputWrapper">
-                    <label for="fullname">Your Name</label> 
-                    <input type="text" name="fullname" placeholder="Full name"></input>
-                </div>
-                <div class="labelInputWrapper">
-                    <label for="email">Your Email</label> 
-                    <input type="text" name="email" placeholder="Email"></input>
-                </div>
-                <div class="labelInputWrapper">
-                    <label for="msg">Your Message</label> 
-                    <textarea name="msg" rows="4" placeholder="Write message here"></textarea>
-                </div>
-
-                <input class="button" type="submit" value="SUBMIT">
-            </form>   
-        </section>
-                  
-       </div>    
+        <div class="wrapper">
+            <div class="container">
+                <h3>Contact me</h3>
+                <p>Please fill out the contact form and I will respond as soon as possible.  Thank you!</p>
+            </div>
+            <!-- End or container -->
+    
+            <section>
+                <form action="/action_page.php">
+                    <fieldset>
+                        <!-- <legend><b>Contact Us</b></legend> -->
+                        <div class="labelInputWrapper">
+                            <label for="fullname">Your Name</label> 
+                            <input type="text" name="fullname" placeholder="Full name"></input>
+                        </div>
+                        <div class="labelInputWrapper">
+                            <label for="email">Your Email</label> 
+                            <input type="text" name="email" placeholder="Email"></input>
+                        </div>
+                        <div class="labelInputWrapper">
+                            <label for="msg">Your Message</label> 
+                            <textarea name="msg" rows="8" placeholder="Write message here"></textarea>
+                        </div>
+        
+                        <input class="button" type="submit" value="SUBMIT">
+                    </fieldset>    
+                </form>   
+            </section>            
+        </div>                     
     </div>
     <!-- End of backgrond image .contactBgImage -->
     
