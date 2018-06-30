@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.bioBgImage{
+    width:100vw;
+    height:100vh;
+    background-image: url('../photos/IMG_0455.jpg');
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+}
+
+article{
+    color:rgb(158, 156, 156);
+    position: absolute;
+    width: 40%;
+    margin-left: 3%;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 1.6vmax;
+}
+
+p{
+    padding-top:2%;
+}
+
+
+
+
+
+
+

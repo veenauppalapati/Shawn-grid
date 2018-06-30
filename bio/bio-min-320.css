@@ -1,0 +1,23 @@
+/* Smallest Screen Size Design Target */
+/* Targets width greater than or equal to 320px */
+/* Example: iPhone portraint */
+
+/* styling created to determine the viewport size being effected */
+/* p{
+    background-color:yellow;
+} */
+.bioBgImage{
+    filter:blur(5px);
+}
+article{
+    color:white;
+    width: 100%;
+    margin-left: 0;
+    padding:0 4%;
+    font-size: 2vmax; 
+}
+
+article > h1{
+    color:tomato;
+    font-size: 4vmax;
+}

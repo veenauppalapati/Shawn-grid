@@ -23,3 +23,7 @@ it scales down on center */
     background-position: center;
     background-repeat: no-repeat;
 }
+
+article > h1{
+    color:orange;
+}
