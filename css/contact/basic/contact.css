@@ -18,12 +18,27 @@ it scales down on center */
 .contactBgImage{
     width:100vw;
     height:100vh;
-    background-image: url('../photos/IMG_1119.JPG');
+    background-image: url('../../../photos/IMG_1119.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-article > h1{
-    color:orange;
+
+/* styling for the text on the article left side of the page
+it includes:  h3 for Contact me 
+p for Please fill...
+This styling is without flexbox or grid.
+Basic positioning css with transform */
+article{
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+   margin-left:4%;
+   width: 25%;
+   font-size: 3vh;
 }
+article > h3{
+    font-size: 5vh;
+} 
+

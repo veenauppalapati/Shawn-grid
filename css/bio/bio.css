@@ -8,7 +8,7 @@
 .bioBgImage{
     width:100vw;
     height:100vh;
-    background-image: url('../photos/IMG_0455.jpg');
+    background-image: url('../../photos/IMG_0455.jpg');
     background-size: cover;
     background-origin: border-box;
     background-position: center;
