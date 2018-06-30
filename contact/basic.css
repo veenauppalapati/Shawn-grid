@@ -18,7 +18,7 @@ it scales down on center */
 .contactBgImage{
     width:100vw;
     height:100vh;
-    background-image: url('../photos/IMG_1119.jpg');
+    background-image: url('../photos/IMG_1119.JPG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
