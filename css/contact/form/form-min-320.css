@@ -1,0 +1,38 @@
+/* Smallest Screen Size Design Target */
+/* Targets width greater than or equal to 320px */
+/* Example: iPhone portraint */
+
+/* styling created to determine the viewport size being effected */
+/* form{
+    background-color:yellow;
+}
+fieldset{
+    background-color: purple;
+} */
+
+section{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(77, 76, 76, 0.651);
+    position: absolute;
+    top:0;
+   
+}
+form{
+    width: 100%;
+    margin-right:0;
+   
+    margin-top: 2em;
+
+    
+}
+/* fieldset{
+    border: 5px green solid;
+} */
+.labelInputWrapper{
+
+margin:3%;
+}
+input{
+    margin:0;
+}

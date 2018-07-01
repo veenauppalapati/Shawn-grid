@@ -1,0 +1,16 @@
+/* Targets width greater than or equal to 1024px */
+/* Example: iPad Landscape, Laptops and Desktops */
+
+.contactBgImage{
+    filter:blur(0);
+}
+
+article{
+    top:50%;
+    transform: translateY(-50%);
+    margin-left:4%; 
+    width: 25%; 
+    padding:0;
+    color:black;
+    text-align: left;
+ }
