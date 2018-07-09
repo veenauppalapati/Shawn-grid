@@ -1,0 +1,22 @@
+/* Smallest Screen Size Design Target */
+/* Targets width greater than or equal to 320px */
+/* Example: iPhone portraint */
+
+/* styling created to determine the viewport size being effected */
+/* p{
+    background-color:yellow;
+} */
+
+/* .vertical{
+    grid-column: span 2;
+    
+}  */
+
+.horizontal{
+    grid-column: auto ;
+} 
+
+/* .vertical{
+    grid-row: auto / span 2;
+
+}  */

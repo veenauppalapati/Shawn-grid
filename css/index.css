@@ -17,6 +17,7 @@ footer,
     width: 100%;   
 }
 
+
 header{   
     position: relative;
     display: flex;    
@@ -34,6 +35,7 @@ header h2{
     font-size: 3vmax; 
     margin-left: 2%;
     align-self: center;
+    transform: scale(1);
 }
 
 /* the parent :  .menu */
@@ -44,11 +46,13 @@ a{
     padding:10px;
     box-shadow: 15px 5px 25px  rgb(136, 134, 134);   
     border-radius: 25px; 
+    transform: scale(1);
 }
 
 .body{
     box-shadow: 15px 15px 25px  rgb(173, 173, 173);
     margin-bottom:40px;
+
 }
 
 .image{
@@ -61,3 +65,9 @@ a{
 }
 
 
+header h2:hover{
+    
+    transform: scale(2);
+    transform-origin: left;
+    transition: transform ease-out 150ms;
+}

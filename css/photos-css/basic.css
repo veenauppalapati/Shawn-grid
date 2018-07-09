@@ -1,5 +1,6 @@
 body{
     background-color: rgb(44, 43, 43);
+    
 }
 .container > div {
     display: flex;
@@ -7,6 +8,7 @@ body{
     align-items: center;
     font-size: 2em;
     color: #ffeead;
+    text-align: center;
 }
 
 .container > div > img {
